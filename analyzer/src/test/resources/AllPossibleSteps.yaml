@@ -1,0 +1,1488 @@
+# =============================================
+# THIS FILE WAS GENERATED; DO NOT EDIT MANUALLY
+# =============================================
+#
+# Yet Another UserAgent Analyzer
+# Copyright (C) 2013-2019 Niels Basjes
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# https://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+config:
+
+# =============================
+#  Extract all fields possible
+# =============================
+
+- matcher:
+    extract:
+      - 'agent  :1:agent!=""'
+
+- matcher:
+    extract:
+      - 'agent.text  :1:agent!="".text'
+
+- matcher:
+    extract:
+      - 'agent.url  :1:agent!="".url'
+
+- matcher:
+    extract:
+      - 'agent.email  :1:agent!="".email'
+
+- matcher:
+    extract:
+      - 'agent.uuid  :1:agent!="".uuid'
+
+- matcher:
+    extract:
+      - 'agent.base64  :1:agent!="".base64'
+
+- matcher:
+    extract:
+      - 'agent.keyvalue  :1:agent!="".keyvalue'
+
+- matcher:
+    extract:
+      - 'agent.keyvalue.key  :1:agent!="".keyvalue.key'
+
+- matcher:
+    extract:
+      - 'agent.keyvalue.value  :1:agent!="".keyvalue.value'
+
+- matcher:
+    extract:
+      - 'agent.keyvalue.text  :1:agent!="".keyvalue.text'
+
+- matcher:
+    extract:
+      - 'agent.keyvalue.url  :1:agent!="".keyvalue.url'
+
+- matcher:
+    extract:
+      - 'agent.keyvalue.email  :1:agent!="".keyvalue.email'
+
+- matcher:
+    extract:
+      - 'agent.keyvalue.uuid  :1:agent!="".keyvalue.uuid'
+
+- matcher:
+    extract:
+      - 'agent.keyvalue.base64  :1:agent!="".keyvalue.base64'
+
+- matcher:
+    extract:
+      - 'agent.product  :1:agent!="".product'
+
+- matcher:
+    extract:
+      - 'agent.product.name  :1:agent!="".product.name'
+
+- matcher:
+    extract:
+      - 'agent.product.name.text  :1:agent!="".product.name.text'
+
+- matcher:
+    extract:
+      - 'agent.product.name.url  :1:agent!="".product.name.url'
+
+- matcher:
+    extract:
+      - 'agent.product.name.email  :1:agent!="".product.name.email'
+
+- matcher:
+    extract:
+      - 'agent.product.name.uuid  :1:agent!="".product.name.uuid'
+
+- matcher:
+    extract:
+      - 'agent.product.name.base64  :1:agent!="".product.name.base64'
+
+- matcher:
+    extract:
+      - 'agent.product.name.keyvalue  :1:agent!="".product.name.keyvalue'
+
+- matcher:
+    extract:
+      - 'agent.product.name.keyvalue.key  :1:agent!="".product.name.keyvalue.key'
+
+- matcher:
+    extract:
+      - 'agent.product.name.keyvalue.value  :1:agent!="".product.name.keyvalue.value'
+
+- matcher:
+    extract:
+      - 'agent.product.name.keyvalue.text  :1:agent!="".product.name.keyvalue.text'
+
+- matcher:
+    extract:
+      - 'agent.product.name.keyvalue.url  :1:agent!="".product.name.keyvalue.url'
+
+- matcher:
+    extract:
+      - 'agent.product.name.keyvalue.email  :1:agent!="".product.name.keyvalue.email'
+
+- matcher:
+    extract:
+      - 'agent.product.name.keyvalue.uuid  :1:agent!="".product.name.keyvalue.uuid'
+
+- matcher:
+    extract:
+      - 'agent.product.name.keyvalue.base64  :1:agent!="".product.name.keyvalue.base64'
+
+- matcher:
+    extract:
+      - 'agent.product.version  :1:agent!="".product.version'
+
+- matcher:
+    extract:
+      - 'agent.product.version.text  :1:agent!="".product.version.text'
+
+- matcher:
+    extract:
+      - 'agent.product.version.url  :1:agent!="".product.version.url'
+
+- matcher:
+    extract:
+      - 'agent.product.version.email  :1:agent!="".product.version.email'
+
+- matcher:
+    extract:
+      - 'agent.product.version.uuid  :1:agent!="".product.version.uuid'
+
+- matcher:
+    extract:
+      - 'agent.product.version.base64  :1:agent!="".product.version.base64'
+
+- matcher:
+    extract:
+      - 'agent.product.version.keyvalue  :1:agent!="".product.version.keyvalue'
+
+- matcher:
+    extract:
+      - 'agent.product.version.keyvalue.key  :1:agent!="".product.version.keyvalue.key'
+
+- matcher:
+    extract:
+      - 'agent.product.version.keyvalue.value  :1:agent!="".product.version.keyvalue.value'
+
+- matcher:
+    extract:
+      - 'agent.product.version.keyvalue.text  :1:agent!="".product.version.keyvalue.text'
+
+- matcher:
+    extract:
+      - 'agent.product.version.keyvalue.url  :1:agent!="".product.version.keyvalue.url'
+
+- matcher:
+    extract:
+      - 'agent.product.version.keyvalue.email  :1:agent!="".product.version.keyvalue.email'
+
+- matcher:
+    extract:
+      - 'agent.product.version.keyvalue.uuid  :1:agent!="".product.version.keyvalue.uuid'
+
+- matcher:
+    extract:
+      - 'agent.product.version.keyvalue.base64  :1:agent!="".product.version.keyvalue.base64'
+
+- matcher:
+    extract:
+      - 'agent.product.comments  :1:agent!="".product.comments'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry  :1:agent!="".product.comments.entry'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.text  :1:agent!="".product.comments.entry.text'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.url  :1:agent!="".product.comments.entry.url'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.email  :1:agent!="".product.comments.entry.email'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.uuid  :1:agent!="".product.comments.entry.uuid'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.base64  :1:agent!="".product.comments.entry.base64'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.keyvalue  :1:agent!="".product.comments.entry.keyvalue'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.keyvalue.key  :1:agent!="".product.comments.entry.keyvalue.key'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.keyvalue.value  :1:agent!="".product.comments.entry.keyvalue.value'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.keyvalue.text  :1:agent!="".product.comments.entry.keyvalue.text'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.keyvalue.url  :1:agent!="".product.comments.entry.keyvalue.url'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.keyvalue.email  :1:agent!="".product.comments.entry.keyvalue.email'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.keyvalue.uuid  :1:agent!="".product.comments.entry.keyvalue.uuid'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.keyvalue.base64  :1:agent!="".product.comments.entry.keyvalue.base64'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product  :1:agent!="".product.comments.entry.product'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.name  :1:agent!="".product.comments.entry.product.name'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.name.text  :1:agent!="".product.comments.entry.product.name.text'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.name.url  :1:agent!="".product.comments.entry.product.name.url'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.name.email  :1:agent!="".product.comments.entry.product.name.email'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.name.uuid  :1:agent!="".product.comments.entry.product.name.uuid'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.name.base64  :1:agent!="".product.comments.entry.product.name.base64'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.name.keyvalue  :1:agent!="".product.comments.entry.product.name.keyvalue'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.name.keyvalue.key  :1:agent!="".product.comments.entry.product.name.keyvalue.key'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.name.keyvalue.value  :1:agent!="".product.comments.entry.product.name.keyvalue.value'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.name.keyvalue.text  :1:agent!="".product.comments.entry.product.name.keyvalue.text'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.name.keyvalue.url  :1:agent!="".product.comments.entry.product.name.keyvalue.url'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.name.keyvalue.email  :1:agent!="".product.comments.entry.product.name.keyvalue.email'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.name.keyvalue.uuid  :1:agent!="".product.comments.entry.product.name.keyvalue.uuid'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.name.keyvalue.base64  :1:agent!="".product.comments.entry.product.name.keyvalue.base64'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.version  :1:agent!="".product.comments.entry.product.version'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.version.text  :1:agent!="".product.comments.entry.product.version.text'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.version.url  :1:agent!="".product.comments.entry.product.version.url'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.version.email  :1:agent!="".product.comments.entry.product.version.email'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.version.uuid  :1:agent!="".product.comments.entry.product.version.uuid'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.version.base64  :1:agent!="".product.comments.entry.product.version.base64'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.version.keyvalue  :1:agent!="".product.comments.entry.product.version.keyvalue'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.version.keyvalue.key  :1:agent!="".product.comments.entry.product.version.keyvalue.key'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.version.keyvalue.value  :1:agent!="".product.comments.entry.product.version.keyvalue.value'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.version.keyvalue.text  :1:agent!="".product.comments.entry.product.version.keyvalue.text'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.version.keyvalue.url  :1:agent!="".product.comments.entry.product.version.keyvalue.url'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.version.keyvalue.email  :1:agent!="".product.comments.entry.product.version.keyvalue.email'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.version.keyvalue.uuid  :1:agent!="".product.comments.entry.product.version.keyvalue.uuid'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.version.keyvalue.base64  :1:agent!="".product.comments.entry.product.version.keyvalue.base64'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.comments  :1:agent!="".product.comments.entry.product.comments'
+
+- matcher:
+    extract:
+      - 'agent.product.comments.entry.product.comments.entry  :1:agent!="".product.comments.entry.product.comments.entry'
+
+
+# =============================
+#  Check for impossible matches
+# =============================
+
+- matcher:
+    extract:
+      - 'MustBeOk  :1:"Not OK"'
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.version.version  :1:agent!="".version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.text.version.version  :1:agent!="".text.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.url.version.version  :1:agent!="".url.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.email.version.version  :1:agent!="".email.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.uuid.version.version  :1:agent!="".uuid.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.base64.version.version  :1:agent!="".base64.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.keyvalue.version.version  :1:agent!="".keyvalue.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.keyvalue.key.version.version  :1:agent!="".keyvalue.key.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.keyvalue.value.version.version  :1:agent!="".keyvalue.value.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.keyvalue.text.version.version  :1:agent!="".keyvalue.text.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.keyvalue.url.version.version  :1:agent!="".keyvalue.url.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.keyvalue.email.version.version  :1:agent!="".keyvalue.email.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.keyvalue.uuid.version.version  :1:agent!="".keyvalue.uuid.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.keyvalue.base64.version.version  :1:agent!="".keyvalue.base64.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.version.version  :1:agent!="".product.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.name.version.version  :1:agent!="".product.name.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.name.text.version.version  :1:agent!="".product.name.text.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.name.url.version.version  :1:agent!="".product.name.url.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.name.email.version.version  :1:agent!="".product.name.email.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.name.uuid.version.version  :1:agent!="".product.name.uuid.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.name.base64.version.version  :1:agent!="".product.name.base64.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.name.keyvalue.version.version  :1:agent!="".product.name.keyvalue.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.name.keyvalue.key.version.version  :1:agent!="".product.name.keyvalue.key.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.name.keyvalue.value.version.version  :1:agent!="".product.name.keyvalue.value.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.name.keyvalue.text.version.version  :1:agent!="".product.name.keyvalue.text.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.name.keyvalue.url.version.version  :1:agent!="".product.name.keyvalue.url.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.name.keyvalue.email.version.version  :1:agent!="".product.name.keyvalue.email.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.name.keyvalue.uuid.version.version  :1:agent!="".product.name.keyvalue.uuid.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.name.keyvalue.base64.version.version  :1:agent!="".product.name.keyvalue.base64.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.version.version.version  :1:agent!="".product.version.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.version.text.version.version  :1:agent!="".product.version.text.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.version.url.version.version  :1:agent!="".product.version.url.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.version.email.version.version  :1:agent!="".product.version.email.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.version.uuid.version.version  :1:agent!="".product.version.uuid.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.version.base64.version.version  :1:agent!="".product.version.base64.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.version.keyvalue.version.version  :1:agent!="".product.version.keyvalue.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.version.keyvalue.key.version.version  :1:agent!="".product.version.keyvalue.key.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.version.keyvalue.value.version.version  :1:agent!="".product.version.keyvalue.value.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.version.keyvalue.text.version.version  :1:agent!="".product.version.keyvalue.text.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.version.keyvalue.url.version.version  :1:agent!="".product.version.keyvalue.url.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.version.keyvalue.email.version.version  :1:agent!="".product.version.keyvalue.email.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.version.keyvalue.uuid.version.version  :1:agent!="".product.version.keyvalue.uuid.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.version.keyvalue.base64.version.version  :1:agent!="".product.version.keyvalue.base64.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.version.version  :1:agent!="".product.comments.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.version.version  :1:agent!="".product.comments.entry.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.text.version.version  :1:agent!="".product.comments.entry.text.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.url.version.version  :1:agent!="".product.comments.entry.url.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.email.version.version  :1:agent!="".product.comments.entry.email.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.uuid.version.version  :1:agent!="".product.comments.entry.uuid.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.base64.version.version  :1:agent!="".product.comments.entry.base64.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.keyvalue.version.version  :1:agent!="".product.comments.entry.keyvalue.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.keyvalue.key.version.version  :1:agent!="".product.comments.entry.keyvalue.key.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.keyvalue.value.version.version  :1:agent!="".product.comments.entry.keyvalue.value.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.keyvalue.text.version.version  :1:agent!="".product.comments.entry.keyvalue.text.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.keyvalue.url.version.version  :1:agent!="".product.comments.entry.keyvalue.url.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.keyvalue.email.version.version  :1:agent!="".product.comments.entry.keyvalue.email.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.keyvalue.uuid.version.version  :1:agent!="".product.comments.entry.keyvalue.uuid.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.keyvalue.base64.version.version  :1:agent!="".product.comments.entry.keyvalue.base64.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.version.version  :1:agent!="".product.comments.entry.product.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.name.version.version  :1:agent!="".product.comments.entry.product.name.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.name.text.version.version  :1:agent!="".product.comments.entry.product.name.text.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.name.url.version.version  :1:agent!="".product.comments.entry.product.name.url.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.name.email.version.version  :1:agent!="".product.comments.entry.product.name.email.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.name.uuid.version.version  :1:agent!="".product.comments.entry.product.name.uuid.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.name.base64.version.version  :1:agent!="".product.comments.entry.product.name.base64.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.name.keyvalue.version.version  :1:agent!="".product.comments.entry.product.name.keyvalue.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.name.keyvalue.key.version.version  :1:agent!="".product.comments.entry.product.name.keyvalue.key.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.name.keyvalue.value.version.version  :1:agent!="".product.comments.entry.product.name.keyvalue.value.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.name.keyvalue.text.version.version  :1:agent!="".product.comments.entry.product.name.keyvalue.text.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.name.keyvalue.url.version.version  :1:agent!="".product.comments.entry.product.name.keyvalue.url.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.name.keyvalue.email.version.version  :1:agent!="".product.comments.entry.product.name.keyvalue.email.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.name.keyvalue.uuid.version.version  :1:agent!="".product.comments.entry.product.name.keyvalue.uuid.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.name.keyvalue.base64.version.version  :1:agent!="".product.comments.entry.product.name.keyvalue.base64.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.version.version.version  :1:agent!="".product.comments.entry.product.version.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.version.text.version.version  :1:agent!="".product.comments.entry.product.version.text.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.version.url.version.version  :1:agent!="".product.comments.entry.product.version.url.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.version.email.version.version  :1:agent!="".product.comments.entry.product.version.email.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.version.uuid.version.version  :1:agent!="".product.comments.entry.product.version.uuid.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.version.base64.version.version  :1:agent!="".product.comments.entry.product.version.base64.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.version.keyvalue.version.version  :1:agent!="".product.comments.entry.product.version.keyvalue.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.version.keyvalue.key.version.version  :1:agent!="".product.comments.entry.product.version.keyvalue.key.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.version.keyvalue.value.version.version  :1:agent!="".product.comments.entry.product.version.keyvalue.value.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.version.keyvalue.text.version.version  :1:agent!="".product.comments.entry.product.version.keyvalue.text.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.version.keyvalue.url.version.version  :1:agent!="".product.comments.entry.product.version.keyvalue.url.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.version.keyvalue.email.version.version  :1:agent!="".product.comments.entry.product.version.keyvalue.email.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.version.keyvalue.uuid.version.version  :1:agent!="".product.comments.entry.product.version.keyvalue.uuid.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.version.keyvalue.base64.version.version  :1:agent!="".product.comments.entry.product.version.keyvalue.base64.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.comments.version.version  :1:agent!="".product.comments.entry.product.comments.version.version'
+
+- matcher:
+    extract:
+      - 'MUST_BE_NULL_agent.product.comments.entry.product.comments.entry.version.version  :1:agent!="".product.comments.entry.product.comments.entry.version.version'
+
+- matcher:
+    require:
+      - 'IsNull[agent!="".version.version]'
+      - 'IsNull[agent!="".text.version.version]'
+      - 'IsNull[agent!="".url.version.version]'
+      - 'IsNull[agent!="".email.version.version]'
+      - 'IsNull[agent!="".uuid.version.version]'
+      - 'IsNull[agent!="".base64.version.version]'
+      - 'IsNull[agent!="".keyvalue.version.version]'
+      - 'IsNull[agent!="".keyvalue.key.version.version]'
+      - 'IsNull[agent!="".keyvalue.value.version.version]'
+      - 'IsNull[agent!="".keyvalue.text.version.version]'
+      - 'IsNull[agent!="".keyvalue.url.version.version]'
+      - 'IsNull[agent!="".keyvalue.email.version.version]'
+      - 'IsNull[agent!="".keyvalue.uuid.version.version]'
+      - 'IsNull[agent!="".keyvalue.base64.version.version]'
+      - 'IsNull[agent!="".product.version.version]'
+      - 'IsNull[agent!="".product.name.version.version]'
+      - 'IsNull[agent!="".product.name.text.version.version]'
+      - 'IsNull[agent!="".product.name.url.version.version]'
+      - 'IsNull[agent!="".product.name.email.version.version]'
+      - 'IsNull[agent!="".product.name.uuid.version.version]'
+      - 'IsNull[agent!="".product.name.base64.version.version]'
+      - 'IsNull[agent!="".product.name.keyvalue.version.version]'
+      - 'IsNull[agent!="".product.name.keyvalue.key.version.version]'
+      - 'IsNull[agent!="".product.name.keyvalue.value.version.version]'
+      - 'IsNull[agent!="".product.name.keyvalue.text.version.version]'
+      - 'IsNull[agent!="".product.name.keyvalue.url.version.version]'
+      - 'IsNull[agent!="".product.name.keyvalue.email.version.version]'
+      - 'IsNull[agent!="".product.name.keyvalue.uuid.version.version]'
+      - 'IsNull[agent!="".product.name.keyvalue.base64.version.version]'
+      - 'IsNull[agent!="".product.version.version.version]'
+      - 'IsNull[agent!="".product.version.text.version.version]'
+      - 'IsNull[agent!="".product.version.url.version.version]'
+      - 'IsNull[agent!="".product.version.email.version.version]'
+      - 'IsNull[agent!="".product.version.uuid.version.version]'
+      - 'IsNull[agent!="".product.version.base64.version.version]'
+      - 'IsNull[agent!="".product.version.keyvalue.version.version]'
+      - 'IsNull[agent!="".product.version.keyvalue.key.version.version]'
+      - 'IsNull[agent!="".product.version.keyvalue.value.version.version]'
+      - 'IsNull[agent!="".product.version.keyvalue.text.version.version]'
+      - 'IsNull[agent!="".product.version.keyvalue.url.version.version]'
+      - 'IsNull[agent!="".product.version.keyvalue.email.version.version]'
+      - 'IsNull[agent!="".product.version.keyvalue.uuid.version.version]'
+      - 'IsNull[agent!="".product.version.keyvalue.base64.version.version]'
+      - 'IsNull[agent!="".product.comments.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.text.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.url.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.email.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.uuid.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.base64.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.keyvalue.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.keyvalue.key.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.keyvalue.value.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.keyvalue.text.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.keyvalue.url.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.keyvalue.email.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.keyvalue.uuid.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.keyvalue.base64.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.name.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.name.text.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.name.url.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.name.email.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.name.uuid.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.name.base64.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.name.keyvalue.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.name.keyvalue.key.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.name.keyvalue.value.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.name.keyvalue.text.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.name.keyvalue.url.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.name.keyvalue.email.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.name.keyvalue.uuid.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.name.keyvalue.base64.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.version.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.version.text.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.version.url.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.version.email.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.version.uuid.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.version.base64.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.version.keyvalue.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.version.keyvalue.key.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.version.keyvalue.value.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.version.keyvalue.text.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.version.keyvalue.url.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.version.keyvalue.email.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.version.keyvalue.uuid.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.version.keyvalue.base64.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.comments.version.version]'
+      - 'IsNull[agent!="".product.comments.entry.product.comments.entry.version.version]'
+    extract:
+    - 'MustBeOk :2:"OK"'
+    - 'MUST_BE_NULL_agent.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.text.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.url.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.email.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.uuid.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.base64.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.keyvalue.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.keyvalue.key.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.keyvalue.value.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.keyvalue.text.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.keyvalue.url.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.keyvalue.email.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.keyvalue.uuid.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.keyvalue.base64.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.name.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.name.text.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.name.url.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.name.email.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.name.uuid.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.name.base64.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.name.keyvalue.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.name.keyvalue.key.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.name.keyvalue.value.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.name.keyvalue.text.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.name.keyvalue.url.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.name.keyvalue.email.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.name.keyvalue.uuid.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.name.keyvalue.base64.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.version.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.version.text.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.version.url.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.version.email.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.version.uuid.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.version.base64.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.version.keyvalue.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.version.keyvalue.key.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.version.keyvalue.value.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.version.keyvalue.text.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.version.keyvalue.url.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.version.keyvalue.email.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.version.keyvalue.uuid.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.version.keyvalue.base64.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.text.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.url.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.email.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.uuid.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.base64.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.keyvalue.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.keyvalue.key.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.keyvalue.value.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.keyvalue.text.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.keyvalue.url.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.keyvalue.email.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.keyvalue.uuid.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.keyvalue.base64.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.name.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.name.text.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.name.url.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.name.email.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.name.uuid.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.name.base64.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.name.keyvalue.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.name.keyvalue.key.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.name.keyvalue.value.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.name.keyvalue.text.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.name.keyvalue.url.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.name.keyvalue.email.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.name.keyvalue.uuid.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.name.keyvalue.base64.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.version.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.version.text.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.version.url.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.version.email.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.version.uuid.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.version.base64.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.version.keyvalue.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.version.keyvalue.key.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.version.keyvalue.value.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.version.keyvalue.text.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.version.keyvalue.url.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.version.keyvalue.email.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.version.keyvalue.uuid.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.version.keyvalue.base64.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.comments.version.version  :2:"<<<null>>>"'
+    - 'MUST_BE_NULL_agent.product.comments.entry.product.comments.entry.version.version  :2:"<<<null>>>"'
+#
+# Yet Another UserAgent Analyzer
+# Copyright (C) 2013-2019 Niels Basjes
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# https://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an AS IS BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+# =============================
+#  ROOT STEPS
+# =============================
+
+- test:
+    input:
+      user_agent_string                     : 'One/1'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product                         : 'One/1'
+      agent.product.name                    : 'One'
+      agent.product.version                 : '1'
+
+
+- test:
+    input:
+      user_agent_string                     : 'One/'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product                         : 'One/'
+      agent.product.name                    : 'One'
+
+# =============================
+
+- test:
+    input:
+      user_agent_string                     : 'http://niels.basjes.nl'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.url                             : 'http://niels.basjes.nl'
+
+# =============================
+
+- test:
+    input:
+      user_agent_string                     : 'One/1 niels@basjes.nl'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.email                           : 'niels@basjes.nl'
+
+# =============================
+
+- test:
+    input:
+      user_agent_string                     : 'One/1 Some text'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.text                            : 'Some text'
+
+# =============================
+
+- test:
+    input:
+      user_agent_string                     : 'text:Niels Basjes'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.keyvalue                        : 'text:Niels Basjes'
+      agent.keyvalue.key                    : 'text'
+      agent.keyvalue.value                  : 'Niels Basjes'
+      agent.keyvalue.text                   : 'Niels Basjes'
+
+
+- test:
+    input:
+      user_agent_string                     : 'email:niels@basjes.nl'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.keyvalue                        : 'email:niels@basjes.nl'
+      agent.keyvalue.key                    : 'email'
+      agent.keyvalue.value                  : 'niels@basjes.nl'
+      agent.keyvalue.email                  : 'niels@basjes.nl'
+
+
+- test:
+    input:
+      user_agent_string                     : 'url:http://niels.basjes.nl'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.keyvalue                        : 'url:http://niels.basjes.nl'
+      agent.keyvalue.key                    : 'url'
+      agent.keyvalue.value                  : 'http://niels.basjes.nl'
+      agent.keyvalue.url                    : 'http://niels.basjes.nl'
+
+
+- test:
+    input:
+      user_agent_string                     : 'uuid:c9af8e16-5999-47f9-abb0-464795853dc8'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.keyvalue                        : 'uuid:c9af8e16-5999-47f9-abb0-464795853dc8'
+      agent.keyvalue.key                    : 'uuid'
+      agent.keyvalue.value                  : 'c9af8e16-5999-47f9-abb0-464795853dc8'
+      agent.keyvalue.uuid                   : 'c9af8e16-5999-47f9-abb0-464795853dc8'
+
+- test:
+    input:
+      user_agent_string                     : 'c9af8e16-5999-47f9-abb0-464795853dc8/1.0'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product                         : 'c9af8e16-5999-47f9-abb0-464795853dc8/1.0'
+      agent.product.name                    : 'c9af8e16-5999-47f9-abb0-464795853dc8'
+      agent.product.version                 : '1.0'
+      agent.product.name.uuid               : 'c9af8e16-5999-47f9-abb0-464795853dc8'
+
+# =============================
+
+- test:
+    input:
+      user_agent_string                     : 'c9af8e16-5999-47f9-abb0-464795853dc8'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.uuid                            : 'c9af8e16-5999-47f9-abb0-464795853dc8'
+
+
+# =============================
+#  PRODUCT NAME KEYVALUE
+# =============================
+
+- test:
+    input:
+      user_agent_string                     : 'aap=noot/1'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product                         : 'aap=noot/1'     # 1
+      agent.product.name                    : 'aap=noot'              # 1
+      agent.product.name.keyvalue           : 'aap=noot'
+      agent.product.name.keyvalue.key       : 'aap'
+      agent.product.name.keyvalue.value     : 'noot'
+      agent.product.name.keyvalue.text      : 'noot'
+      agent.product.version                 : '1'              # 1
+
+- test:
+    input:
+      user_agent_string                     : 'email:niels@basjes.nl/1'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.name                    : 'email:niels@basjes.nl'
+      agent.product.version                 : '1'
+      agent.product.name.keyvalue           : 'email:niels@basjes.nl'
+      agent.product.name.keyvalue.key       : 'email'
+      agent.product.name.keyvalue.value     : 'niels@basjes.nl'
+      agent.product.name.keyvalue.email     : 'niels@basjes.nl'
+
+- test:
+    input:
+      user_agent_string                     : 'url:http://niels.basjes.nl 1'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.name                    : 'url:http://niels.basjes.nl'
+      agent.product.version                 : '1'
+      agent.product.name.keyvalue           : 'url:http://niels.basjes.nl'
+      agent.product.name.keyvalue.key       : 'url'
+      agent.product.name.keyvalue.value     : 'http://niels.basjes.nl'
+      agent.product.name.keyvalue.url       : 'http://niels.basjes.nl'
+
+- test:
+    input:
+      user_agent_string                     : 'name:42 1'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.name                    : 'name:42'
+      agent.product.name.keyvalue           : 'name:42'
+      agent.product.name.keyvalue.key       : 'name'
+      agent.product.name.keyvalue.value     : '42'
+      agent.product.version                 : '1'
+
+- test:
+    input:
+      user_agent_string                     : 'uuid:c9af8e16-5999-47f9-abb0-464795853dc8/1'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.name                    : 'uuid:c9af8e16-5999-47f9-abb0-464795853dc8'
+      agent.product.version                 : '1'
+      agent.product.name.keyvalue           : 'uuid:c9af8e16-5999-47f9-abb0-464795853dc8'
+      agent.product.name.keyvalue.key       : 'uuid'
+      agent.product.name.keyvalue.value     : 'c9af8e16-5999-47f9-abb0-464795853dc8'
+      agent.product.name.keyvalue.uuid      : 'c9af8e16-5999-47f9-abb0-464795853dc8'
+
+
+# =============================
+#  PRODUCT VERSION KEYVALUE
+# =============================
+
+- test:
+    input:
+      user_agent_string                     : 'One/foo=bar'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.version.keyvalue        : 'foo=bar'
+      agent.product.version.keyvalue.key    : 'foo'
+      agent.product.version.keyvalue.value  : 'bar'
+
+- test:
+    input:
+      user_agent_string                     : 'One/email:niels@basjes.nl'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.name                    : 'One'
+      agent.product.version                 : 'email:niels@basjes.nl'
+      agent.product.version.keyvalue        : 'email:niels@basjes.nl'
+      agent.product.version.keyvalue.key    : 'email'
+      agent.product.version.keyvalue.value  : 'niels@basjes.nl'
+
+- test:
+    input:
+      user_agent_string                     : 'One/url:http://niels.basjes.nl'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.name                    : 'One'
+      agent.product.version                 : 'url:http://niels.basjes.nl'
+      agent.product.version.keyvalue        : 'url:http://niels.basjes.nl'
+      agent.product.version.keyvalue.key    : 'url'
+      agent.product.version.keyvalue.value  : 'http://niels.basjes.nl'
+
+- test:
+    input:
+      user_agent_string                     : 'One/uuid:c9af8e16-5999-47f9-abb0-464795853dc8'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.name                    : 'One'
+      agent.product.version                 : 'uuid:c9af8e16-5999-47f9-abb0-464795853dc8'
+      agent.product.version.keyvalue        : 'uuid:c9af8e16-5999-47f9-abb0-464795853dc8'
+      agent.product.version.keyvalue.key    : 'uuid'
+      agent.product.version.keyvalue.value  : 'c9af8e16-5999-47f9-abb0-464795853dc8'
+
+
+# ===============
+
+- test:
+    input:
+      user_agent_string                     : 'niels@basjes.nl/1'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.name                    : 'niels@basjes.nl'
+      agent.product.version                 : '1'
+      agent.product.name.email              : 'niels@basjes.nl'
+
+- test:
+    input:
+      user_agent_string                     : 'http://niels.basjes.nl 1'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.name                    : 'http://niels.basjes.nl'
+      agent.product.name.url                : 'http://niels.basjes.nl'
+      agent.product.version                 : '1'
+
+- test:
+    input:
+      user_agent_string                     : 'c9af8e16-5999-47f9-abb0-464795853dc8/1'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.name                    : 'c9af8e16-5999-47f9-abb0-464795853dc8'
+      agent.product.name.uuid               : 'c9af8e16-5999-47f9-abb0-464795853dc8'
+      agent.product.version                 : '1'
+
+
+
+#######################################
+#######################################
+# Everything inside a comment block
+
+# =============================
+#  ROOT STEPS
+# =============================
+
+- test:
+    input:
+       user_agent_string                     : 'Root/1.0 ( )'
+    expected:
+      MustBeOk                               : 'OK'
+      agent.product.comments.entry.text      : ''
+
+- test:
+    input:
+       user_agent_string                     : 'Root/1.0 (One)'
+    expected:
+      MustBeOk                               : 'OK'
+      agent.product.comments.entry.text      : 'One'
+
+- test:
+    input:
+       user_agent_string                     : 'Root/1.0 (1234)'
+    expected:
+      MustBeOk                               : 'OK'
+      agent.product.comments.entry.text      : '1234'
+
+
+
+- test:
+    input:
+       user_agent_string                     : 'Root/1.0 (One/1)'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.comments.entry.product                         : 'One/1'
+      agent.product.comments.entry.product.name                    : 'One'
+      agent.product.comments.entry.product.version                 : '1'
+
+
+- test:
+    input:
+       user_agent_string                     : 'Root/1.0 (One/)'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.comments.entry.product                         : 'One/'
+      agent.product.comments.entry.product.name                    : 'One'
+
+# =============================
+
+- test:
+    input:
+       user_agent_string                     : 'Root/1.0 (http://niels.basjes.nl)'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.comments.entry.url                             : 'http://niels.basjes.nl'
+
+# =============================
+
+- test:
+    input:
+       user_agent_string                     : 'Root/1.0 (One/1 niels@basjes.nl)'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.comments.entry.email                           : 'niels@basjes.nl'
+
+# =============================
+
+- test:
+    input:
+       user_agent_string                     : 'Root/1.0 (One/1 Some text)'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.comments.entry.text                            : 'Some text'
+
+# =============================
+
+
+- test:
+    input:
+       user_agent_string                     : 'Root/1.0 (key:)'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.comments.entry.keyvalue                        : 'key:'
+      agent.product.comments.entry.keyvalue.key                    : 'key'
+
+
+- test:
+    input:
+       user_agent_string                     : 'Root/1.0 (key:1234)'
+    expected:
+      MustBeOk                                                     : 'OK'
+      agent.product.comments.entry.keyvalue                        : 'key:1234'
+      agent.product.comments.entry.keyvalue.key                    : 'key'
+      agent.product.comments.entry.keyvalue.value                  : '1234'
+      agent.product.comments.entry.keyvalue.text                   : '1234'
+
+- test:
+    input:
+       user_agent_string                     : 'Root/1.0 (text:Niels Basjes)'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.comments.entry.keyvalue                        : 'text:Niels Basjes'
+      agent.product.comments.entry.keyvalue.key                    : 'text'
+      agent.product.comments.entry.keyvalue.value                  : 'Niels Basjes'
+      agent.product.comments.entry.keyvalue.text                   : 'Niels Basjes'
+
+
+- test:
+    input:
+       user_agent_string                     : 'Root/1.0 (email:niels@basjes.nl)'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.comments.entry.keyvalue                        : 'email:niels@basjes.nl'
+      agent.product.comments.entry.keyvalue.key                    : 'email'
+      agent.product.comments.entry.keyvalue.value                  : 'niels@basjes.nl'
+      agent.product.comments.entry.keyvalue.email                  : 'niels@basjes.nl'
+
+
+- test:
+    input:
+       user_agent_string                     : 'Root/1.0 (url:http://niels.basjes.nl)'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.comments.entry.keyvalue                        : 'url:http://niels.basjes.nl'
+      agent.product.comments.entry.keyvalue.key                    : 'url'
+      agent.product.comments.entry.keyvalue.value                  : 'http://niels.basjes.nl'
+      agent.product.comments.entry.keyvalue.url                    : 'http://niels.basjes.nl'
+
+
+- test:
+    input:
+       user_agent_string                     : 'Root/1.0 (uuid:c9af8e16-5999-47f9-abb0-464795853dc8)'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.comments.entry.keyvalue                        : 'uuid:c9af8e16-5999-47f9-abb0-464795853dc8'
+      agent.product.comments.entry.keyvalue.key                    : 'uuid'
+      agent.product.comments.entry.keyvalue.value                  : 'c9af8e16-5999-47f9-abb0-464795853dc8'
+      agent.product.comments.entry.keyvalue.uuid                   : 'c9af8e16-5999-47f9-abb0-464795853dc8'
+
+# =============================
+
+- test:
+    input:
+       user_agent_string                     : 'Root/1.0 (c9af8e16-5999-47f9-abb0-464795853dc8)'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.comments.entry.uuid                            : 'c9af8e16-5999-47f9-abb0-464795853dc8'
+
+
+# =============================
+#  PRODUCT NAME KEYVALUE
+# =============================
+
+- test:
+    input:
+       user_agent_string                     : 'Root/1.0 (aap=noot/1)'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.comments.entry.product                         : 'aap=noot/1'     # 1
+      agent.product.comments.entry.product.name                    : 'aap=noot'              # 1
+      agent.product.comments.entry.product.name.keyvalue           : 'aap=noot'
+      agent.product.comments.entry.product.name.keyvalue.key       : 'aap'
+      agent.product.comments.entry.product.name.keyvalue.value     : 'noot'
+      agent.product.comments.entry.product.name.keyvalue.text      : 'noot'
+      agent.product.comments.entry.product.version                 : '1'              # 1
+
+- test:
+    input:
+       user_agent_string                     : 'Root/1.0 (email:niels@basjes.nl/1)'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.comments.entry.product.name                    : 'email:niels@basjes.nl'
+      agent.product.comments.entry.product.version                 : '1'
+      agent.product.comments.entry.product.name.keyvalue           : 'email:niels@basjes.nl'
+      agent.product.comments.entry.product.name.keyvalue.key       : 'email'
+      agent.product.comments.entry.product.name.keyvalue.value     : 'niels@basjes.nl'
+      agent.product.comments.entry.product.name.keyvalue.email     : 'niels@basjes.nl'
+
+- test:
+    input:
+       user_agent_string                     : 'Root/1.0 (url:http://niels.basjes.nl 1)'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.comments.entry.product.name                    : 'url:http://niels.basjes.nl'
+      agent.product.comments.entry.product.version                 : '1'
+      agent.product.comments.entry.product.name.keyvalue           : 'url:http://niels.basjes.nl'
+      agent.product.comments.entry.product.name.keyvalue.key       : 'url'
+      agent.product.comments.entry.product.name.keyvalue.value     : 'http://niels.basjes.nl'
+      agent.product.comments.entry.product.name.keyvalue.url       : 'http://niels.basjes.nl'
+
+- test:
+    input:
+       user_agent_string                     : 'Root/1.0 (uuid:c9af8e16-5999-47f9-abb0-464795853dc8/1)'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.comments.entry.product.name                    : 'uuid:c9af8e16-5999-47f9-abb0-464795853dc8'
+      agent.product.comments.entry.product.version                 : '1'
+      agent.product.comments.entry.product.name.keyvalue           : 'uuid:c9af8e16-5999-47f9-abb0-464795853dc8'
+      agent.product.comments.entry.product.name.keyvalue.key       : 'uuid'
+      agent.product.comments.entry.product.name.keyvalue.value     : 'c9af8e16-5999-47f9-abb0-464795853dc8'
+      agent.product.comments.entry.product.name.keyvalue.uuid      : 'c9af8e16-5999-47f9-abb0-464795853dc8'
+
+
+# =============================
+#  PRODUCT VERSION KEYVALUE
+# =============================
+
+- test:
+    input:
+       user_agent_string                     : 'Root/1.0 (One/foo=bar)'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.comments.entry.product.version.keyvalue        : 'foo=bar'
+      agent.product.comments.entry.product.version.keyvalue.key    : 'foo'
+      agent.product.comments.entry.product.version.keyvalue.value  : 'bar'
+
+- test:
+    input:
+       user_agent_string                     : 'Root/1.0 (One/email:niels@basjes.nl)'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.comments.entry.product.name                    : 'One'
+      agent.product.comments.entry.product.version                 : 'email:niels@basjes.nl'
+      agent.product.comments.entry.product.version.keyvalue        : 'email:niels@basjes.nl'
+      agent.product.comments.entry.product.version.keyvalue.key    : 'email'
+      agent.product.comments.entry.product.version.keyvalue.value  : 'niels@basjes.nl'
+
+- test:
+    input:
+       user_agent_string                     : 'Root/1.0 (One/url:http://niels.basjes.nl)'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.comments.entry.product.name                    : 'One'
+      agent.product.comments.entry.product.version                 : 'url:http://niels.basjes.nl'
+      agent.product.comments.entry.product.version.keyvalue        : 'url:http://niels.basjes.nl'
+      agent.product.comments.entry.product.version.keyvalue.key    : 'url'
+      agent.product.comments.entry.product.version.keyvalue.value  : 'http://niels.basjes.nl'
+
+- test:
+    input:
+       user_agent_string                     : 'Root/1.0 (One/uuid:c9af8e16-5999-47f9-abb0-464795853dc8)'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.comments.entry.product.name                    : 'One'
+      agent.product.comments.entry.product.version                 : 'uuid:c9af8e16-5999-47f9-abb0-464795853dc8'
+      agent.product.comments.entry.product.version.keyvalue        : 'uuid:c9af8e16-5999-47f9-abb0-464795853dc8'
+      agent.product.comments.entry.product.version.keyvalue.key    : 'uuid'
+      agent.product.comments.entry.product.version.keyvalue.value  : 'c9af8e16-5999-47f9-abb0-464795853dc8'
+
+
+# ===============
+
+- test:
+    input:
+       user_agent_string                     : 'Root/1.0 (niels@basjes.nl/1)'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.comments.entry.product.name                    : 'niels@basjes.nl'
+      agent.product.comments.entry.product.version                 : '1'
+      agent.product.comments.entry.product.name.email              : 'niels@basjes.nl'
+
+- test:
+    input:
+       user_agent_string                     : 'Root/1.0 (http://niels.basjes.nl 1)'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.comments.entry.product.name                    : 'http://niels.basjes.nl'
+      agent.product.comments.entry.product.name.url                : 'http://niels.basjes.nl'
+      agent.product.comments.entry.product.version                 : '1'
+
+- test:
+    input:
+       user_agent_string                     : 'Root/1.0 (c9af8e16-5999-47f9-abb0-464795853dc8/1)'
+    expected:
+      MustBeOk                              : 'OK'
+      agent.product.comments.entry.product.name                    : 'c9af8e16-5999-47f9-abb0-464795853dc8'
+      agent.product.comments.entry.product.name.uuid               : 'c9af8e16-5999-47f9-abb0-464795853dc8'
+      agent.product.comments.entry.product.version                 : '1'
+
+
+
+
+
+
+
